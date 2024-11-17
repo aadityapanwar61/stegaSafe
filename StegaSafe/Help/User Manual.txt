@@ -1,0 +1,71 @@
+1. Introduction
+Welcome to StegaSafe, a cutting-edge steganography application designed for secure and private communication. StegaSafe allows users to hide messages within images, ensuring data privacy and confidentiality. This manual will guide you through the features, installation process, and detailed usage instructions.
+
+1.1 System Requirements
+To run StegaSafe, ensure your system meets the following requirements:
+•	Operating System: Windows, macOS, or Linux
+•	Python Version: Python 3.x
+•	Dependencies: KivyMD, Stegano (installation instructions provided below)
+
+2. Installation
+To get started with StegaSafe, follow these steps:
+1.	Download the StegaSafe package from the official repository or source provided.
+2.	Install the required dependencies by running:
+pip install kivymd stegano
+3.	Run the main application file by opening your terminal or command prompt and executing:
+python main.py
+If you encounter any issues, consult the Troubleshooting section in this manual.
+
+3. Features Overview
+3.1 Image Loading
+Users can load an image to act as a “carrier file” for the hidden message. StegaSafe supports most common image formats, such as JPEG and PNG.
+3.2 Encoding Messages
+Easily hide a message within an image by entering your text and selecting the “Encode” option. The message will be securely embedded in the image, invisible to the naked eye.
+3.3 Decoding Messages
+Retrieve hidden messages from encoded images by loading the image and selecting “Decode.” The original hidden message will appear in the message field.
+
+4. User Interface Walkthrough
+4.1 Home Screen
+The StegaSafe Home Screen provides quick access to all features. Key buttons include:
+•	Load Image: To select an image as the carrier.
+•	Encode: To start the process of hiding a message.
+•	Decode: To retrieve a hidden message from an image.
+4.2 Encoding Section
+Enter the message text in the provided field and press “Encode” after loading your chosen image. Once encoded, you can save the newly generated image to your system.
+4.3 Decoding Section
+In this section, upload an encoded image, then press “Decode” to view the concealed message.
+
+5. How to Encode a Message
+1.	From the Home Screen, click on Load Image to select the carrier image.
+2.	In the message field, type the text you want to hide.
+3.	Click Encode. Once the process completes, save the encoded image by choosing a file location.
+
+6. How to Decode a Message
+1.	From the Home Screen, click Load Image to upload the encoded image.
+2.	Click Decode to retrieve and display the hidden message in the message field.
+
+7. Best Practices and Tips
+•	Use High-Resolution Images: Higher-resolution images provide better hiding capacity and security.
+•	Avoid Image Compression: Compression can degrade image quality and potentially disrupt the hidden message.
+
+8. Frequently Asked Questions (FAQ)
+Q: What types of files are supported for encoding and decoding? A: StegaSafe supports JPEG and PNG formats for image encoding and decoding.
+Q: Why can’t I decode a message? A: Ensure you’re using the original encoded image, as the message may not decode correctly with altered files.
+
+9. Troubleshooting
+9.1 Encoding Issues
+If encoding fails, ensure the image file format is supported and that your message size is appropriate for the selected image resolution.
+9.2 Decoding Problems
+If the message does not decode correctly, check that the image hasn’t been modified after encoding.
+
+10. Contact and Support
+If you need additional support, please contact the StegaSafe development team:
+•	Aaditya Panwar - Team Lead
+•	Anusha Nagar - Developer
+•	Anushka Patel - Developer
+
+Appendices
+Glossary
+•	Encoding: The process of hiding a message within an image.
+•	Decoding: Retrieving a hidden message from an image.
+•	Carrier File: The image used to hide a message.
